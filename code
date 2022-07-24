@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main(){
+    float x,y,s,l,m,d;
+    cout<<"input the number:";
+    cin>>x;
+    cout<<"input the number:";
+    cin>>y;
+    s=x+y;
+    m=x-y;
+    l=x*y;
+    d=x/y;
+    cout<<"the sum is: "<<s<<endl;
+    cout<<"the mum is: "<<m<<endl;
+    cout<<"the mal is: "<<l<<endl;
+    cout<<"the div is: "<<d<<endl;
+    return 0;
+}
